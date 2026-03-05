@@ -29,7 +29,7 @@ public class DungeonHash {
     }
 
     void startingRoom() {
-        map[2][2] = true;
+        map[length/2][length/2] = true;
         usedRooms++;
     }
 
