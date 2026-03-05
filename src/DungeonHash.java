@@ -21,8 +21,8 @@ public class DungeonHash {
     }
 
     void initMap() {
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
+        for (int i = 0; i < length; i++) {
+            for (int j = 0; j < length; j++) {
                 map[i][j] = false;
             }
         }
